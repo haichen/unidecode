@@ -17,7 +17,7 @@ Bei Jing Chinese characters Peking (U+5317 U+4EB0)
 ⠁⠥⠞⠕⠓⠕⠞⠅⠑⠽ 
 autohotkey
 
-Русский 
+Русский
 Russkii
 
 You can change the transliteration by simply adding a String like "ÄAe ß ü €Eur". 
