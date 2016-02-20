@@ -23,5 +23,6 @@ The Example changes Ä to Ae instead of A, ß leaves unchanged like ü, € is c
 Original character transliteration tables:
 Copyright 2001, Sean M. Burke <sburke@cpan.org>, all rights reserved.
 --------------------
+Hopefully this is correct cited!
 
 
