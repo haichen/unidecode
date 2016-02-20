@@ -10,17 +10,18 @@ Ascii-Output:
 AaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaCcCcCcCcCcDdDdDEeEeEeEeEeEeEeEeEeEeEeEeEeEeEeEeEeGgGgGgGgHhHhIiIiIiIiIiIiIiIiIiIiIiJjKkLlLlLlLlLlNnNnNnNnOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoPpPpRrRrRrSsSsSsSsTtTtTtUuUuUuUuUuUuUuUuUuUuUuUuUuUuUuUuUuUuUuUuUuUuUuWwWwWwWwYyYyYyYyYyYyYyZzZzZz
 
 
-北亰
-Bei Jing Chinese characters Peking (U+5317 U+4EB0)
+北亰 - Bei Jing Chinese characters Peking (U+5317 U+4EB0)
 
-⠁⠥⠞⠕⠓⠕⠞⠅⠑⠽ 
-autohotkey
+⠁⠥⠞⠕⠓⠕⠞⠅⠑⠽  - autohotkey
 
-Русский
-Russkii
+Русский - Russkii
 
 You can change the transliteration by simply adding a String like "ÄAe ß ü €Eur". 
 The Example changes Ä to Ae instead of A, ß leaves unchanged like ü, € is changed to Eur.
 
+--------------------
+Original character transliteration tables:
+Copyright 2001, Sean M. Burke <sburke@cpan.org>, all rights reserved.
+--------------------
 
 
