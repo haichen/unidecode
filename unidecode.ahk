@@ -41,6 +41,8 @@ if !data[223]
 
 	needle:="Oim)&#(\d+);"
 	Matches := RegExMatchGlobal(text, needle)
+		
+	
 	list:=""
 	if (matches.maxindex()<10)
 		For I, Match In Matches
@@ -148,7 +150,9 @@ part31=1A	a	B	b	B	b	B	b	C	c	D	d	D	d	D	d	D	d	D	d	E	e	E	e	E	e	E	e	E	e	F	f	G	g	H	h	
 
 part32=1a	a	a	a	a	a	a	a	A	A	A	A	A	A	A	A	e	e	e	e	e	e	[?]	[?]	E	E	E	E	E	E	[?]	[?]	e	e	e	e	e	e	e	e	E	E	E	E	E	E	E	E	i	i	i	i	i	i	i	i	I	I	I	I	I	I	I	I	o	o	o	o	o	o	[?]	[?]	O	O	O	O	O	O	[?]	[?]	u	u	u	u	u	u	u	u	[?]	U	[?]	U	[?]	U	[?]	U	o	o	o	o	o	o	o	o	O	O	O	O	O	O	O	O	a	a	e	e	e	e	i	i	o	o	u	u	o	o	[?]	[?]	a	a	a	a	a	a	a	a	A	A	A	A	A	A	A	A	e	e	e	e	e	e	e	e	E	E	E	E	E	E	E	E	o	o	o	o	o	o	o	o	O	O	O	O	O	O	O	O	a	a	a	a	a	[?]	a	a	A	A	A	A	A	\'	i	\'	~	"~	e	e	e	[?]	e	e	E	E	E	E	E	\'`	\'\'	\'~	i	i	i	i	[?]	[?]	i	i	I	I	I	I	[?]	`\'	`\'	`~	u	u	u	u	R	R	u	u	U	U	U	U	R	"`	"\'	`	[?]	[?]	o	o	o	[?]	o	o	O	O	O	O	O	\'	`		1
 
-part33=1 	 	 	 	 	 	 	 	 	 	 	 					-	-	-	-	--	--	||	_	\'	\'	,	\'	"	"	,,	"	+	++	*	*>	.	..	...	.	\x0a	\x0a\x0a						 	`%0	`%00	\'	\'\'	\'\'\'	`	``	```	^	<	>	*	!!	!?	-	_	-	^	***	--	/	-[	]-	??	?!	!?	7	PP	(]	[)	*	[?]	[?]	[?]	`%	~	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]		[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]							0				4	5	6	7	8	9	+	-	=	(	)	n	0	1	2	3	4	5	6	7	8	9	+	-	=	(	)	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	ECU	CL	Cr	FF	L	mil	N	Pts	Rs	W	NS	D	EUR	K	T	Dr	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]																					[?]		[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]			1
+;for correct Eur i changed a bit
+part33=1 	 	 	 	 	 	 	 	 	 	 	 					-	-	-	-	--	--	||	_	\'	\'	,	\'	"	"	,,	"	+	++	*	*>	.	..	...	.	\x0a	\x0a\x0a						 	`%0	`%00	\'	\'\'	\'\'\'	`	``	```	^	<	>	*	!!	!?	-	_	-	^	***	--	/	-[	]-	??	?!	!?	7	PP	(]	[)	*	[?]	[?]	[?]	`%	~	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]									0				4	5	6	7	8	9	+	-	=	(	)	n	0	1	2	3	4	5	6	7	8	9	+	-	=	(	)	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	ECU	CL	Cr	FF	L	mil	N	Pts	Rs	W	NS	D	EUR	K	T	Dr	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]																					[?]		[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]		1
+
 
 part34=1		C											H								N				P	Q			R			(sm)	TEL	(tm)		Z						K	A			e	e	E	F	F	M								FAX					[?]	[?]	[?]	[?]	[?]	D	d	e	i	j	[?]	[?]	[?]	[?]	F	[?]	[?]	[?]	[?]	 1/3 	 2/3 	 1/5 	 2/5 	 3/5 	 4/5 	 1/6 	 5/6 	 1/8 	 3/8 	 5/8 	 7/8 	 1/	I	II	III	IV	V	VI	VII	VIII	IX	X	XI	XII	L	C	D	M	i	ii	iii	iv	v	vi	vii	viii	ix	x	xi	xii	l	c	d	m	(D	D)	((|))	)	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	-	|	-	|	-	|	\\	/	\\	/	-	-	~	~	-	|	-	|	-	-	-	|	-	|	|	-	-	-	-	-	-	|	|	|	|	|	|	|	^	V	\\	=	V	^	-	-	|	|	-	-	|	|	=	|	=	=	|	=	|	=	=	=	=	=	=	|	=	|	=	|	\\	/	\\	/	=	=	~	~	|	|	-	|	-	|	-	-	-	|	-	|	|	|	|	|	|	|	-	\\	\\	|	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]	[?]		1
 
@@ -599,10 +603,11 @@ part256=1[?]	!	"	#	$	`%	&	\'	(	)	*	+	,	-	.	/	0	1	2	3	4	5	6	7	8	9	:	`;	<	=	>	?	@	
 	Loop,256
 		raw .= substr(part%a_index%,2,strlen(part%a_index%)-2)
 
+ 	Loop,parse,raw,%a_tab%
+		if (a_index=1)
+			data[0]:= A_LoopField
+		else 
+			data.Push(A_LoopField)
  
- 
-Loop,parse, raw,%a_tab%
-	if (a_index>1)
-		data.Push(A_LoopField)
 return data
 }
